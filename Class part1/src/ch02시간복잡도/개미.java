@@ -18,10 +18,8 @@ public class 개미 {
 		int q = sc.nextInt();
 		int t = sc.nextInt();
 		
-		int timex = t %(2 * w);
-		
-		int currentX = p;
-		
+		int timex = t % (2 * w);	
+		int currentX = p;		
 		int deltaX = 1;
 	
 		
@@ -37,6 +35,7 @@ public class 개미 {
 		int deltaY = 1;
 		int currentY = q;
 		int timey = t% (2 * h);
+		
 		while(timey-- > 0) { //0이 될때까지 반복
 			if(currentY == h)
 				deltaY = -1;

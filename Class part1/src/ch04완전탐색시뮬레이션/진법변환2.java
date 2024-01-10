@@ -17,8 +17,8 @@ public class 진법변환2 {
 		//2. 이때 가장 마지막 나머지부터 가장 앞 자리값이 된다. 
 		while( n >0) {
 			int d = n % b;
-			if(d<10) answer += d;
-			else answer += (char)(d- 10 + 'A');
+			if(d<10) answer += d; //10보다 작은경우 숫자만
+			else answer += (char)(d- 10 + 'A'); // 10보다 큰경우 알파벳 
 			n = n / b;
 		}
 		

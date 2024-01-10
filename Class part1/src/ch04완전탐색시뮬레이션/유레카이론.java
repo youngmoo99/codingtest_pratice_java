@@ -8,6 +8,7 @@ public class 유레카이론 {
 	
 	public static void preprocess() {
 		//1. k보다 작은 삼각수를 모두 구한다. 
+		//k보다 작은 삼각수만 구하면된다. k는 최대 1000 
 		int[] triangleNumbers= new int[50];
 		int triangleNumberCount = 0;
 		for(int i=1; ; i++) {

@@ -14,8 +14,7 @@ public class A더하기B빼기3 {
 			int a = sc.nextInt();
 			int b = sc.nextInt();
 			System.out.println(a+b);
+			
 		}
-
 	}
-
 }

@@ -20,7 +20,6 @@ public class 빠른aplusb {
 		BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
 		
 		int T = Integer.parseInt(br.readLine());
-		
 		while(T-- > 0) {
 			String[] nums = br.readLine().split(" ");
 			int a = Integer.parseInt(nums[0]);

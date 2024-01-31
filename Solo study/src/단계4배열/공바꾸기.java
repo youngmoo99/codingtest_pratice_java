@@ -14,6 +14,7 @@ public class 공바꾸기 {
 		int[] arr = new int[N];
 		for(int k=0; k<N; k++) {
 			arr[k] = k + 1; 
+			
 		}
 		
 		for(int go = 0; go < M; go++) {
